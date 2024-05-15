@@ -47,7 +47,7 @@ describe("encontrarLaMedia", () => {
         language: "C",
       },
     ];
-    const expected = 21;
+    const expected = 20.5;
 
     expect(encontrarLaMedia(actual)).toMatchObject(expected);
   });

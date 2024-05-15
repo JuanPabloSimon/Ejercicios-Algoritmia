@@ -17,7 +17,7 @@ import contarLosLenguajes from "./src/session-4/contar-los-lenguajes";
 import buscarAislado from "./src/session-4/encontrar-al-aislado";
 import encontrarAlMasViejo from "./src/session-4/encontrar-al-mas-viejo";
 import encontrarLaMedia from "./src/session-4/encontrar-la-media";
-
+import pedirDetalles from "./src/session-4/pedir-detalles";
 
 // SESSION 1
 // Repeticiones Pares

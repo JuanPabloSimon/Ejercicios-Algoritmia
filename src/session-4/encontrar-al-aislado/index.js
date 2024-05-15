@@ -16,4 +16,3 @@ export default function buscarAislado(numeros) {
   return numeros.find((el) => el % 2 === 0);
 }
 
-console.log(buscarAislado([1, 3, 2]));
