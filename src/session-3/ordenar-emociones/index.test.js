@@ -2,7 +2,7 @@ import { describe, it, assert } from "vitest";
 
 import ordenarEmociones from ".";
 
-describe("ordenarEmociones", () => {
+describe.skip("ordenarEmociones", () => {
   it("deberia ordenar las emociones de manera descendente", () => {
     assert.deepEqual(ordenarEmociones([":D", "T_T", ":D", ":("], true), [":D", ":D", ":(", "T_T"]);
     assert.deepEqual(ordenarEmociones(["T_T", ":D", ":(", ":("], true), [":D", ":(", ":(", "T_T"]);

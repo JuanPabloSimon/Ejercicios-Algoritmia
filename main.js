@@ -13,6 +13,11 @@ import encontrarImpar from "./src/session-3/encontrar-impar";
 import girar from "./src/session-3/gira-palabras";
 import marquesina from "./src/session-3/marquesina";
 import ordenarEmociones from "./src/session-3/ordenar-emociones";
+import contarLosLenguajes from "./src/session-4/contar-los-lenguajes";
+import buscarAislado from "./src/session-4/encontrar-al-aislado";
+import encontrarAlMasViejo from "./src/session-4/encontrar-al-mas-viejo";
+import encontrarLaMedia from "./src/session-4/encontrar-la-media";
+
 
 // SESSION 1
 // Repeticiones Pares

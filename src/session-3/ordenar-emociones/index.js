@@ -20,4 +20,3 @@ const VALORES = {
   "T_T": [5, "T_T"],
 };
 
-console.log(ordenarEmociones([], false));
