@@ -18,6 +18,7 @@ import buscarAislado from "./src/session-4/encontrar-al-aislado";
 import encontrarAlMasViejo from "./src/session-4/encontrar-al-mas-viejo";
 import encontrarLaMedia from "./src/session-4/encontrar-la-media";
 import pedirDetalles from "./src/session-4/pedir-detalles";
+import manejarCarrito from "./src/session-5/carrito";
 
 // SESSION 1
 // Repeticiones Pares
