@@ -13,42 +13,35 @@ export function validarParéntesis(parentesis) {
       if (checker.length === 0 || checker.pop() !== "(") {
         return false;
       }
-      }
-      console.log(checker);
+    }
+    console.log(checker);
   }
   // al final, si el checker esta vacio es por que todos los elementos cerraron correctamente
   return checker.length === 0;
 }
 
-// Otra opción observada en internet 
+// Otra opción observada en internet
 function esOrdenValidoParentesis(cadena) {
-    let contador = 0;
-    // Recorremos la cadena de entrada
-    for (let i = 0; i < cadena.length; i++) {
-        const caracter = cadena[i];
-        
-        // Si es un paréntesis de apertura, aumentamos el contador
-        if (caracter === '(') {
-            contador++;
-        } 
-        // Si es un paréntesis de cierre, disminuimos el contador
-        else if (caracter === ')') {
-            contador--;
-        }
-        
-        // Si el contador se vuelve negativo, significa que hay más paréntesis de cierre que de apertura
-        if (contador < 0) {
-            return false;
-        }
+  let contador = 0;
+  // Recorremos la cadena de entrada
+  for (let i = 0; i < cadena.length; i++) {
+    const caracter = cadena[i];
+
+    // Si es un paréntesis de apertura, aumentamos el contador
+    if (caracter === "(") {
+      contador++;
     }
-    
-    // Al final, si el contador es igual a 0, significa que todos los paréntesis se cerraron correctamente
-    return contador === 0;
+    // Si es un paréntesis de cierre, disminuimos el contador
+    else if (caracter === ")") {
+      contador--;
+    }
+
+    // Si el contador se vuelve negativo, significa que hay más paréntesis de cierre que de apertura
+    if (contador < 0) {
+      return false;
+    }
+  }
+
+  // Al final, si el contador es igual a 0, significa que todos los paréntesis se cerraron correctamente
+  return contador === 0;
 }
-
-// Ejemplos de uso
-// console.log(validarParéntesis("()(())"));
-// console.log(validarParéntesis("()()(()))"));
-// console.log(validarParéntesis("(()()"));
-
-// console.log(validarParéntesis("(())((()())())"));

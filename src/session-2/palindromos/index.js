@@ -25,6 +25,3 @@ export default function posiblePalindromo(num) {
   // retornamos, si la cantidad de numeros que tienen apariciones impares es mayor a uno no sera palíndromo (false), si no retorna true;
   return impares <= 1;
 }
-
-// console.log(posiblePalindromo(415554));
- 

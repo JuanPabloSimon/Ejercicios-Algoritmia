@@ -44,7 +44,7 @@ describe.skip("lenguajesPresentes", () => {
           language: "PHP",
         },
       ])
-    ).toEqual(['JavaScript', 'Ruby', 'PHP' ]);
+    ).toEqual(["JavaScript", "Ruby", "PHP"]);
   });
 });
 
