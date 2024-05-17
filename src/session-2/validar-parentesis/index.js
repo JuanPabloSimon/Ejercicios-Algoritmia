@@ -16,7 +16,7 @@ export function validarParéntesis(parentesis) {
     }
     console.log(checker);
   }
-  // al final, si el checker esta vacio es por que todos los elementos cerraron correctamente
+  // si el checker esta vacio es por que todos los elementos cerraron correctamente
   return checker.length === 0;
 }
 
