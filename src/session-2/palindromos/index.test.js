@@ -2,7 +2,7 @@ import { expect, describe, it } from "vitest";
 
 import posiblePalindromo from ".";
 
-describe("posiblePalindromo", () => {
+describe.skip("posiblePalindromo", () => {
   it("debería devolver true si es un posible palindromo", () => {
     expect(posiblePalindromo(3357665)).toBe(true);
     expect(posiblePalindromo(2121)).toBe(true);

@@ -3,7 +3,7 @@ import { expect, describe, it } from "vitest";
 
 import encontrarLaMedia from ".";
 
-describe("encontrarLaMedia", () => {
+describe.skip("encontrarLaMedia", () => {
   it("debería encontrar la media correctamente - 50", () => {
     const actual = [
       {

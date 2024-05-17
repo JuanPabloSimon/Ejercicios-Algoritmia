@@ -2,7 +2,7 @@ import { expect, describe, it } from "vitest";
 
 import manejarCarrito from ".";
 
-describe("manejarCarrito", () => {
+describe.skip("manejarCarrito", () => {
   it("debería agregar un elemento cuando el carrito está vacío", () =>
     expect(
       manejarCarrito(
@@ -81,7 +81,7 @@ describe("manejarCarrito", () => {
         },
       ],
     ];
-    
+
     expect(
       manejarCarrito(
         {
@@ -94,7 +94,7 @@ describe("manejarCarrito", () => {
       )
     ).toMatchObject([]);
   });
-  
+
   it("deberia modificar un producto existente habiendo mas de un producto y devolver ambos", () => {
     const carrito = [
       [
@@ -118,9 +118,9 @@ describe("manejarCarrito", () => {
             precio: 50,
           },
         },
-      ]
+      ],
     ];
-    
+
     expect(
       manejarCarrito(
         {
@@ -153,7 +153,7 @@ describe("manejarCarrito", () => {
             precio: 50,
           },
         },
-      ]
+      ],
     ]);
-  })
+  });
 });

@@ -19,6 +19,10 @@ import encontrarAlMasViejo from "./src/session-4/encontrar-al-mas-viejo";
 import encontrarLaMedia from "./src/session-4/encontrar-la-media";
 import pedirDetalles from "./src/session-4/pedir-detalles";
 import manejarCarrito from "./src/session-5/carrito";
+import unificarVotos from "./src/session-5/elecciones";
+import encontraditto from "./src/session-5/escondiditto";
+import encontrarLIS from "./src/session-5/lis";
+import urinalesLibres from "./src/session-5/urinales";
 
 // SESSION 1
 // Repeticiones Pares
