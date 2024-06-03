@@ -1,29 +1,5 @@
-import filtrarPares from "./src/sesion-1/repeticiones-pares/repeated-elements";
-import esIsograma from "./src/sesion-1/isograma/isograma";
-import letrasPorNumeros from "./src/sesion-1/letras-por-numeros/letras-replacer";
-import stringTerminaCon from "./src/sesion-1/string-termina-con";
-import transformador from "./src/sesion-1/transformador/transformador";
-import moverCeros from "./src/session-2/mover-ceros/mover-ceros";
-import { continentesRepresentados } from "./src/session-2/continentes-representados";
-import posiblePalindromo from "./src/session-2/palindromos";
-import { validarParéntesis } from "./src/session-2/validar-parentesis";
-import contarDuplicados from "./src/session-3/contar-duplicados";
-import encontrarHackers from "./src/session-3/encontrar-hacker";
-import encontrarImpar from "./src/session-3/encontrar-impar";
-import girar from "./src/session-3/gira-palabras";
-import marquesina from "./src/session-3/marquesina";
-import ordenarEmociones from "./src/session-3/ordenar-emociones";
-import contarLosLenguajes from "./src/session-4/contar-los-lenguajes";
-import buscarAislado from "./src/session-4/encontrar-al-aislado";
-import encontrarAlMasViejo from "./src/session-4/encontrar-al-mas-viejo";
-import encontrarLaMedia from "./src/session-4/encontrar-la-media";
-import pedirDetalles from "./src/session-4/pedir-detalles";
-import manejarCarrito from "./src/session-5/carrito";
-import unificarVotos from "./src/session-5/elecciones";
-import encontraditto from "./src/session-5/escondiditto";
-import encontrarLIS from "./src/session-5/lis";
-import urinalesLibres from "./src/session-5/urinales";
-
+import manifestantesChocadores from "./src/session-6/manifestantes-chocadores";
+import quejaJusta from "./src/session-6/queja-justa";
 // SESSION 1
 // Repeticiones Pares
 // const lista = ["A", "B", "A", "C", "C", "C", "C"];

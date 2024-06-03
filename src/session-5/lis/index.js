@@ -21,5 +21,3 @@ export default function encontrarLIS(numeros) {
   // retornamos maxans con la longitud de la lis mas larga
   return maxans;
 }
-
-console.log(encontrarLIS([4, 3, 5, 1, 6]));
